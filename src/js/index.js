@@ -1,3 +1,3 @@
-import { title } from "./components";
+import { title } from "./components.js";
 
 title("Hello World");
