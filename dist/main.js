@@ -1,0 +1,7 @@
+(() => {
+  "use strict";
+  !(function () {
+    const t = document.createElement("h1");
+    (t.textContent = "Hello World"), document.body.appendChild(t);
+  })();
+})();
