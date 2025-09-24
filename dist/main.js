@@ -116,7 +116,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   title: () => (/* binding */ title)\n/* harmony export */ });\nfunction title(title) {\r\n    const element = document.createElement(\"h1\");\r\n    element.textContent = title;\r\n\r\n    document.body.appendChild(element);\r\n}\n\n//# sourceURL=webpack:///./src/js/components.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   title: () => (/* binding */ title)\n/* harmony export */ });\nfunction title(title) {\n  const element = document.createElement(\"h1\");\n  element.textContent = title;\n  document.body.appendChild(element);\n}\n\n//# sourceURL=webpack:///./src/js/components.js?\n}");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var _components_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components.js */ \"./src/js/components.js\");\n\r\n\r\n\r\n\r\n(0,_components_js__WEBPACK_IMPORTED_MODULE_1__.title)(\"Hello World\");\n\n//# sourceURL=webpack:///./src/js/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var _components_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components.js */ \"./src/js/components.js\");\n\n\n(0,_components_js__WEBPACK_IMPORTED_MODULE_1__.title)(\"Hello World\");\n\n//# sourceURL=webpack:///./src/js/index.js?\n}");
 
 /***/ })
 
