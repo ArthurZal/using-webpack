@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { stat } = require("fs");
 
 module.exports = {
   entry: path.resolve(__dirname, "src", "js", "index.js"),
@@ -8,6 +9,13 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   mode: "development",
+  devServer: {
+    static: {
+        directory: path.join(__dirname, "dist", "index.html"), 
+    },
+    port: 3000,
+    open: true,
+  },
   plugins: [new HtmlWebpackPlugin()],
   module: {
     rules: [
