@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { stat } = require("fs");
 
 module.exports = {
   entry: path.resolve(__dirname, "src", "js", "index.js"),
